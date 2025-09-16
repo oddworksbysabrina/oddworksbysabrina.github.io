@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Oddworksbysabrina Portfolioseite
+title: Oddworks by sabrina Portfolio
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -58,7 +58,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Oddworks by Sabrina"
+  name   : "Hey ich bin Sabrina"
   avatar : "/assets/images/profilbild-sa.png"
   bio    : "Ich arbeite als Grafik und- Webdesignerin. In meiner Freizeit, zeichne ich kurze Comics über verscheidenste Gedanken und Gefühle."
   links:
@@ -70,7 +70,7 @@ author:
   #    url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/oddworksbysabrina.github.io"
+      url: "https://github.com/oddworksbysabrina"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/vaulteffect/"
@@ -82,7 +82,7 @@ footer:
    #   url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/oddworksbysabrina.github.io"
+      url: "https://github.com/oddworksbysabrina"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/vaulteffect/"
