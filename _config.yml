@@ -48,9 +48,6 @@ include:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-header:
-  image: /assets/images/odd-logo-header.gif
-  image_description: "Eine Animation des Oddworks Logos"
 
 # Plugins (previously gems:)
 plugins:
