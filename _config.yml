@@ -48,6 +48,10 @@ include:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+header:
+  image: /assets/images/odd-logo-header.gif
+  image_description: "Eine Animation des Oddworks Logos"
+
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate
@@ -58,7 +62,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Hey ich bin Sabrina"
+  name   : "Hey, ich bin Sabrina"
   avatar : "/assets/images/profilbild-sa.png"
   bio    : "Ich arbeite als Grafik und- Webdesignerin. In meiner Freizeit, zeichne ich kurze Comics über verscheidenste Gedanken und Gefühle."
   links:
