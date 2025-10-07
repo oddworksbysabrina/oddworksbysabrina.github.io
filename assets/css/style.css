@@ -1,0 +1,134 @@
+/* Oddfont für Überschriften */
+@font-face {
+  font-family: 'Oddfont';
+  src: url('/assets/fonts/Oddfont-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Quicksand für Fließtext */
+@font-face {
+  font-family: 'Quicksand';
+  src: url('/assets/fonts/Quicksand-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+  max-width: auto;
+  margin: 0 auto;
+}
+
+
+/* Überschriften: Oddfont */
+h1, nav a {
+  font-family: 'Oddfont', sans-serif !important;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+h2,h3,h4,h5,h6 {
+margin-left: 1.5rem;
+margin-right: 1.5rem;
+}
+
+header {
+  background-color: #1b1919; /* später evtl. helleres Grau */
+  color: #fff;
+  padding: 0.5rem;
+  text-align: right;
+}
+
+/* Layout: Avatar links, Menü rechts */
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Damit es bei kleinen Screens umbrechen darf */
+  gap: 1rem;
+}
+
+/* Avatar + Link */
+.header-left {
+  text-align: center;
+}
+
+.avatar {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.avatar-link {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #fff;
+}
+
+p {
+  margin: 1.5rem;
+}
+
+
+/* Navigation */
+.header-right {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.0rem;
+  justify-content: center;
+}
+
+nav a {
+  color: #fff;
+  font-size: 1.5em;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.2s;
+
+}
+
+nav a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+/* -------- Responsiv -------- */
+@media (max-width: 700px) {
+  .header-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .header-right {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+ .avatar {
+    width: 80px;
+  }
+  nav a {
+    font-size: 1.1em;
+  }
+ 
+}
+
+footer {
+  background-color: #1b1919; 
+  color: #fff;
+  text-align: center;
+  padding: 0.8rem;
+  margin-top: 2rem;
+}
+
+/* Zwei Spalten Beispiel */
+.columns {
+  display: flex;
+  gap: 20px;
+}
+.column {
+  flex: 1;
+}
+
+div.d {
+  text-align: justify;
+} 
