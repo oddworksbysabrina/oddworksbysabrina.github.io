@@ -93,7 +93,7 @@ nav a:hover {
 }
 
 /* -------- Responsiv -------- */
-@media (max-width: 700px) {
+@media (max-width: 600px) {
   .header-container {
     flex-direction: column;
     text-align: center;
