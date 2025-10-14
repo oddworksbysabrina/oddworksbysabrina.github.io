@@ -132,3 +132,90 @@ footer {
 div.d {
   text-align: justify;
 } 
+
+
+/* CSS für die Landingpage */
+ .lp-body {
+      margin: 0;
+      padding: 0;
+      background: #fff;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      font-family: 'Quicksand', sans-serif;
+      color: #1d1d1d;
+      text-align: center;
+    }
+
+    .lp-header {
+      background: linear-gradient(to bottom, #1d1d1d, #fff);
+      padding: 3.0rem 0;
+    }
+
+
+.lp-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 15rem); /* oder was du brauchst */
+  position: relative;
+   gap: 3rem; /* Abstand zwischen Bild und Button */
+}
+
+
+.lp-gif-bg {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100vw;
+  height: auto;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.lp-main img {
+  display: block;
+  margin: 0 auto;
+  width: 1220px;      /* Wunschbreite fürs Handy/Desktop */
+  max-width: 95vw;   /* damit es auf kleinen Screens nicht überläuft */
+  min-width: 480px;  /* damit es nie zu klein wird */
+  height: auto;
+}
+
+@media (max-width: 600px) {
+  .lp-main img {
+    min-width: 480px;
+    max-width: 95vw;
+  }
+}
+
+.lp-footer {
+  background: linear-gradient(to top, #1d1d1d, #fff);
+  padding: 3.5rem 0; /* Höhe des Verlaufs */
+}
+
+.lp-button {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background-color: #302e2e;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  font-weight: bold;
+   position: relative;
+  z-index: 1;
+}
+
+.lp-button:hover {
+  background-color: #464343;
+}
+
+    @media (max-width: 600px) {
+      header, footer {
+        padding: 1.5rem 0;
+      }
+
+      .lp.button {
+        padding: 0.6rem 1.2rem;
+      }
+    }
