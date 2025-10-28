@@ -147,11 +147,6 @@ div.d {
       text-align: center;
     }
 
-    .lp-header {
-      background: linear-gradient(to bottom, #1d1d1d, #fff);
-      padding: 3.0rem 0;
-    }
-
 
 .lp-main {
   display: flex;
@@ -189,10 +184,6 @@ div.d {
   }
 }
 
-.lp-footer {
-  background: linear-gradient(to top, #1d1d1d, #fff);
-  padding: 3.5rem 0; /* Höhe des Verlaufs */
-}
 
 .lp-button {
   display: inline-block;
@@ -219,3 +210,13 @@ div.d {
         padding: 0.6rem 1.2rem;
       }
     }
+
+
+    .lp-header {
+  background: linear-gradient(to bottom, #1d1d1d, #fff);
+  min-height: 60px;
+}
+.lp-footer {
+  background: linear-gradient(to top, #1d1d1d, #fff);
+  min-height: 60px;
+}
