@@ -139,12 +139,10 @@ div.d {
  .lp-body {
       margin: 0;
       padding: 0;
-      background: #fff;
       display: flex;
       flex-direction: column;
       height: 100vh;
       font-family: 'Quicksand', sans-serif;
-      color: #1d1d1d;
       text-align: center;
     }
 
@@ -202,7 +200,7 @@ div.d {
   background-color: #464343;
 }
 
-    @media (max-width: 600px) {
+    @media (max-width: 680px) {
       header, footer {
         padding: 1.5rem 0;
       }
