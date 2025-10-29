@@ -142,7 +142,7 @@ div.d {
       background: #fff;
       display: flex;
       flex-direction: column;
-      min-height: 100vh;
+      height: 100vh;
       font-family: 'Quicksand', sans-serif;
       color: #1d1d1d;
       text-align: center;
@@ -157,6 +157,7 @@ div.d {
   min-height: calc(100vh - 15rem); /* oder was du brauchst */
   position: relative;
    gap: 3rem; /* Abstand zwischen Bild und Button */
+   background-size: cover
 }
 
 
