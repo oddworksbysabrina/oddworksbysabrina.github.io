@@ -174,16 +174,8 @@ div.d {
   display: block;
   margin: 0 auto;
   max-width: 95vw;   /* damit es auf kleinen Screens nicht überläuft */
-  min-width: 480px;  /* damit es nie zu klein wird */
   height: auto;
 }
-
-@media (max-width: 600px) {
-  .lp-main img {
-    min-width: 480px;
-  }
-}
-
 
 .lp-button {
   display: inline-block;
@@ -201,7 +193,7 @@ div.d {
   background-color: #464343;
 }
 
-    @media (max-width: 680px) {
+    @media (max-width: 600px) {
       header, footer {
         padding: 1.5rem 0;
       }
