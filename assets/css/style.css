@@ -14,8 +14,9 @@
   font-style: normal;
 }
 
-body {
+html, body {
     font-family: 'Quicksand', sans-serif;
+  min-height: 100vh;
   max-width: auto;
   margin: 0 auto;
 }
