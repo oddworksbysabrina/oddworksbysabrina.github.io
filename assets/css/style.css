@@ -182,7 +182,6 @@ div.d {
 @media (max-width: 600px) {
   .lp-main img {
     min-width: 480px;
-    max-width: 95vw;
   }
 }
 
