@@ -14,10 +14,13 @@
   font-style: normal;
 }
 
-body {
+html, body {
     font-family: 'Quicksand', sans-serif;
+  min-height: 100vh;
+  width: 100vw;
   max-width: auto;
   margin: 0 auto;
+   overflow-x: hidden; /* verhindert horizontales Scrollen */
 }
 
 
@@ -138,12 +141,10 @@ div.d {
  .lp-body {
       margin: 0;
       padding: 0;
-      background: #fff;
       display: flex;
       flex-direction: column;
-      min-height: 100vh;
+      height: 100vh;
       font-family: 'Quicksand', sans-serif;
-      color: #1d1d1d;
       text-align: center;
     }
 
@@ -156,6 +157,7 @@ div.d {
   min-height: calc(100vh - 15rem); /* oder was du brauchst */
   position: relative;
    gap: 3rem; /* Abstand zwischen Bild und Button */
+   background-size: cover
 }
 
 
@@ -171,19 +173,9 @@ div.d {
 .lp-main img {
   display: block;
   margin: 0 auto;
-  width: 1220px;      /* Wunschbreite fürs Handy/Desktop */
   max-width: 95vw;   /* damit es auf kleinen Screens nicht überläuft */
-  min-width: 480px;  /* damit es nie zu klein wird */
   height: auto;
 }
-
-@media (max-width: 600px) {
-  .lp-main img {
-    min-width: 480px;
-    max-width: 95vw;
-  }
-}
-
 
 .lp-button {
   display: inline-block;
