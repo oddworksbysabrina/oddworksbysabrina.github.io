@@ -1,6 +1,7 @@
 ---
 layout: default
 title: home
+header_image: /assets/images/h-menue.jpg
 ---
 
 # Willkommen
