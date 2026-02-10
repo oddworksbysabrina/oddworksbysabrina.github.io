@@ -7,7 +7,6 @@ body_class: home
 # Willkommen
 
 Willkommen auf meiner Seite!
-<bodybody class="{{ page.body_class }}">
 <div class="columns">
   <div class="column">
     <h3>Spalte 1</h3>
@@ -18,4 +17,3 @@ Willkommen auf meiner Seite!
     <p>Text in der rechten Spalte.</p>
   </div>
 </div>
-</body>
