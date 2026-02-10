@@ -46,7 +46,12 @@ header {
   background-position: center;
   background-repeat: no-repeat;
 }
-
+.header-bg img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  display: block;
+}
 /* Layout: Avatar links, Menü rechts */
 .header-container {
   display: flex;

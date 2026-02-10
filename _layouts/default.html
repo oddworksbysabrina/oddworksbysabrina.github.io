@@ -6,7 +6,12 @@
   <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
 </head>
 <body>
-  <header style="background-image: url('{{ page.header_image | relative_url }}');">
+  <header class="site-header">
+  {% if page.header_image %}
+    <div class="header-bg">
+      <img src="{{ page.header_image | relative_url }}" alt="">
+    </div>
+  {% endif %}
   <div class="header-container" >
     <div class="header-left">
       <a href="{{ "/home" | relative_url }}" class="avatar-link"> 
