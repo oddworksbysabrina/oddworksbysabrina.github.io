@@ -37,14 +37,18 @@ margin-right: 1.5rem;
 }
 
 header {
-  min-height: 280px;
+ 
   padding: 0.5rem;
   text-align: right;
 }
 
 /* Layout: Avatar links, Menü rechts */
 .header-container {
+   min-height: 280px;
   display: flex;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap; /* Damit es bei kleinen Screens umbrechen darf */
