@@ -116,7 +116,7 @@ nav a:hover {
 }
 
 body.home {
-  background-image: url('assets/images/projekt-bg.jpg');
+  background-image: url('../images/projekt-bg.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
