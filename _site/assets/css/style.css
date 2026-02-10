@@ -37,6 +37,7 @@ margin-right: 1.5rem;
 }
 
 header {
+  min-height: 280px;
   background-color: #1b1919; /* später evtl. helleres Grau */
   color: #fff;
   padding: 0.5rem;
