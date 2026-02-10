@@ -42,6 +42,9 @@ header {
   color: #fff;
   padding: 0.5rem;
   text-align: right;
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* Layout: Avatar links, Menü rechts */
