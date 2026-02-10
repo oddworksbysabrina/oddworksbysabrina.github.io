@@ -123,6 +123,14 @@ body.home {
   background-repeat: no-repeat;
 }
 
+body.kontakt {
+  background-image: url('../images/kontakt-hintergrund.jpg');
+  background-size: cover;
+  min-height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 
 footer {
   background-color: #1b1919; 
