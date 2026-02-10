@@ -1,7 +1,7 @@
 ---
 layout: default
 title: home
-header_image: /assets/images/menue.jpg
+body_class: home
 ---
 
 # Willkommen
