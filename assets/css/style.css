@@ -37,16 +37,14 @@ margin-right: 1.5rem;
 }
 
 header {
+  background-color: #1b1919; /* später evtl. helleres Grau */
+  color: #fff;
   padding: 0.5rem;
   text-align: right;
 }
 
 /* Layout: Avatar links, Menü rechts */
 .header-container {
-     min-height: 280px;   /* kannst du später anpassen */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   display: flex;
   align-items: center;
   justify-content: space-between;
