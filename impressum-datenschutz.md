@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Impressum/ Datenschutz
+title: impressum/datenschutz
 ---
 
-# Impressum/ Datenschutz
+# impressum/datenschutz
 
 Hier kommt das Impressum und der datenschutzsalat hin.
 
